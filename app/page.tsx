@@ -41,7 +41,7 @@ export default function Home() {
         
         
         
-        <p className="text-center text-neutral-300 p-6 sm:px-96 px-4 animate-popFadeIn">I&apos;ve been programming since high school and have experience coding in Java, Python, and JavaScript. My experience includes AI/ML, web development, and software development, all with an emphasis on creating practical solutions to real-world problems.</p>
+        <p className="text-center text-neutral-300 p-6 sm:px-96 px-4 animate-popFadeIn">Hi there! I&apos;m a BS Computer Science graduate with a major in Software Technology. I have experience with Java, Python, and JavaScript. My background includes work in web development, software development, and AI/ML, focusing on creating practical solutions to real-world problems.</p>
 
         <div className="flex flex-wrap justify-center gap-4 p-4 rounded-md">
           {socmeds.map((socmed, index) => (
