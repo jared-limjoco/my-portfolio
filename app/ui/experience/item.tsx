@@ -1,6 +1,12 @@
 import Image from 'next/image';
 
-export default function Item({ name, href }) {
+// Define the props type
+interface ItemProps {
+  name: string; // Name of the item (e.g., language or technology)
+  href: string; // URL for the image source
+}
+
+export default function Item({ name, href }: ItemProps) {
   return (
     <div
       className="inline-flex items-center bg-[#242427] p-2 pr-2 rounded-md cursor-pointer shadow-md"

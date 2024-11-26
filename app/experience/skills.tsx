@@ -1,4 +1,4 @@
-import Item from '@/app/ui/experience/Item';
+import Item from '@/app/ui/experience/item';
 
 const languages = [
   { name: 'C', href: '/experience/languages/c.png' },
